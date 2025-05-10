@@ -10,12 +10,14 @@ config_version=5
 
 [application]
 
-config/name="fox-run"
+config/name="frog"
+config/description="Small frog decide to rebel "
+config/version="0.0.1"
 run/main_scene="uid://xtqenuvjuau0"
 config/features=PackedStringArray("4.4", "Mobile")
 boot_splash/bg_color=Color(1, 1, 1, 1)
 boot_splash/image="uid://u4w0lmhbn0x0"
-config/icon="res://icon.svg"
+config/icon="uid://c01onkadsi848"
 
 [display]
 
@@ -46,6 +48,7 @@ jump={
 
 [physics]
 
+2d/physics_engine="GodotPhysics2D"
 2d/default_gravity=2500.0
 
 [rendering]

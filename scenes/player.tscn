@@ -272,7 +272,7 @@ scale = Vector2(3.125, 3.125)
 sprite_frames = SubResource("SpriteFrames_pvtuh")
 animation = &"double_jumping"
 autoplay = "default"
-frame_progress = 0.841513
+frame_progress = 0.767315
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(105.5, 402.5)
